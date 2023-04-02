@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Start"
+        android:id="@+id/menuStart"
+        android:icon="@android:drawable/ic_media_play"
+        app:showAsAction="always"
+        />
+    <item
+
+        android:title="Setting"
+        android:id="@+id/menuSetting"/>
+    <item
+        android:title="Panel"
+        android:id="@+id/menuPanel" />
+    <item
+        android:orderInCategory="1"
+        android:title="Share"
+        android:id="@+id/menuShare"
+        >
+        <menu>
+            <item
+                android:title="menu2"
+                android:id="@+id/menu2"/>
+        </menu>
+    </item>
+
+</menu>
